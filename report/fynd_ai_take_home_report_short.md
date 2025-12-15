@@ -93,12 +93,4 @@ Both dashboards were deployed on **Streamlit Cloud** using environment-based API
 
 This project shows how **well-designed prompts, evaluation, and deployment** can turn LLMs into reliable, real-world systems.  
 The focus was on building something **usable, explainable, and production-ready**, not just generating outputs.
-
----
-
-### Submitted
-- GitHub Repository  
-- Task 1 Notebook  
-- Deployed User Dashboard  
-- Deployed Admin Dashboard  
-- Short Report  
+ 
