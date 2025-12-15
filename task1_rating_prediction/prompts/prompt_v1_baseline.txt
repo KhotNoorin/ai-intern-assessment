@@ -1,0 +1,12 @@
+You are given a Yelp restaurant review.
+
+Your task is to classify the review into a star rating from 1 to 5.
+
+Return the result strictly in the following JSON format:
+{
+  "predicted_stars": <integer between 1 and 5>,
+  "explanation": "Brief reasoning for the assigned rating"
+}
+
+Review:
+"{review_text}"

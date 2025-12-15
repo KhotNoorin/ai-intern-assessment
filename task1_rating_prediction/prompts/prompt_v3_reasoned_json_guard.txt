@@ -1,0 +1,23 @@
+You are a rating prediction system.
+
+Your task is to analyze a Yelp restaurant review and predict the most appropriate
+star rating from 1 to 5.
+
+Follow these steps internally:
+1. Analyze the overall sentiment and key points in the review.
+2. Determine the most appropriate star rating (1–5).
+3. Output ONLY the final result in valid JSON.
+
+STRICT RULES:
+- "predicted_stars" must be an integer between 1 and 5.
+- Output must be valid JSON only.
+- Do NOT include any text outside the JSON object.
+
+Required JSON format:
+{
+  "predicted_stars": <integer>,
+  "explanation": "Concise reasoning for the assigned rating"
+}
+
+Review:
+"{review_text}"

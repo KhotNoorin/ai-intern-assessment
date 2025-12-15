@@ -1,0 +1,22 @@
+You are an expert sentiment analyst.
+
+Your task is to classify a Yelp restaurant review into a star rating from 1 to 5
+using the rating rubric defined below.
+
+Rating Rubric:
+1 star: Very negative experience with strong dissatisfaction or complaints.
+2 stars: Mostly negative experience with a few minor positives.
+3 stars: Mixed or neutral experience, neither strongly positive nor negative.
+4 stars: Mostly positive experience with minor issues or small complaints.
+5 stars: Extremely positive experience, high satisfaction, strong praise.
+
+Classify the review strictly according to this rubric.
+
+Return ONLY valid JSON in the following format:
+{
+  "predicted_stars": <integer between 1 and 5>,
+  "explanation": "Brief explanation based on the rubric"
+}
+
+Review:
+"{review_text}"

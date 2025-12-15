@@ -1,0 +1,15 @@
+# Core data handling
+pandas
+numpy
+
+# Progress & utilities
+tqdm
+
+# LLM API (OpenRouter via OpenAI-compatible SDK)
+openai
+
+
+streamlit
+
+jupyter
+ipykernel
