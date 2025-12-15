@@ -10,6 +10,12 @@ Users can:
 
 All submissions are stored in a shared CSV file.
 """
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+
 
 import streamlit as st
 
