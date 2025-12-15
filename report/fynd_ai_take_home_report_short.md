@@ -1,9 +1,4 @@
-# Fynd AI Intern – Take Home Assessment 
-
-**Candidate:** Noorin Nasir Khot  
-**Role:** AI Intern  
-
----
+# AI Intern
 
 ## Overview
 
